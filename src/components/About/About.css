@@ -1,0 +1,32 @@
+.photo{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 20px;
+    margin-bottom: 40px; 
+    z-index:0;
+    
+    
+}
+
+.info{
+   height: 20vh;
+   width: 50vh; 
+   float: right;
+   
+}
+
+.photobox{
+   height: 10vh;
+   width: 40vh;
+   
+    float:left;
+    
+}
+
+.aboutcon{
+    height: 45vh;
+    width: 172.1vh;
+    display:flex;
+    position: relative;
+   
+}

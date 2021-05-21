@@ -1,0 +1,15 @@
+.logo{
+  font-family:cursive;
+  margin-left:400px;
+}
+
+.item1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    
+  }
+
+#flame:hover{
+  color: #ff7e5f ;
+
+}
