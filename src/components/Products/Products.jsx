@@ -5,7 +5,7 @@ import photo from '../Products/web.jpg'
 import Product from './Product/Product';
 
 const products = [
-    {id:1, name: 'Website Template', description:'Customizable Website Template/Bootstrap',image:'https://www.multidots.com/wp-content/uploads/2020/01/code-quality-standard.png?quality=90', price:'$50'}
+    {id:1, name: 'Website Template', description:'Customizable Website Template/Bootstrap',image:'https://www.multidots.com/wp-content/uploads/2020/01/code-quality-standard.png?quality=90', price:'$250'}
 ];
 
 const Products =() => {
