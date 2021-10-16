@@ -6,7 +6,7 @@
   "type": "module",
     "scripts": {
       "client-install": "npm start client",
-      "start": " cd /client/src && node app",
+      "start": " cd ./client/src && node app",
       "server": "nodemon index.js",
       "client": "npm start client",
       "dev": "concurrently \"npm run server\" \"npm run client\"",
