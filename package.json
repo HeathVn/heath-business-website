@@ -7,7 +7,7 @@
     
     "client": "cd client && npm start --prefix client",
     "backend": "cd server && nodemon server.js",
-    "dev": "concurrently \"npm run backend\" \"npm run client\""
+    "start": "concurrently \"npm run backend\" \"npm run client\""
   },
   "repository": {
     "type": "git",
