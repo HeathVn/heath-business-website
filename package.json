@@ -6,8 +6,8 @@
   "type": "module",
     "scripts": {
       "client-install": "npm start client",
-      "start": " node app",
-      "server": "nodemon server.js",
+      "start": " node /client/src/App.js",
+      "server": "nodemon index.js",
       "client": "npm start client",
       "dev": "concurrently \"npm run server\" \"npm run client\"",
       "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install client && npm run build client"
