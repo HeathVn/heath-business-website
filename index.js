@@ -5,6 +5,8 @@ import cors from 'cors';
 import servicesRoutes from './routes/services.js'
 import path from 'path';
 
+const __dirname = path.resolve();
+
 const app = express();
 
 
