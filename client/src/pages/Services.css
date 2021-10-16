@@ -1,0 +1,14 @@
+.main-body{
+    
+    height: 85vh;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.title{
+   text-align: center;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:xx-large;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
