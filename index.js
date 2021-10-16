@@ -3,6 +3,7 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import servicesRoutes from './routes/services.js'
+import path from 'path';
 
 const app = express();
 
@@ -39,7 +40,7 @@ const port = process.env.PORT || 5000;
 
 
 
-const path = require('path');
+//const path = require('path');
 
 if (process.env.NODE_ENV === 'production') {
   // Serve any static files
