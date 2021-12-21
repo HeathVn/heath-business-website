@@ -38,7 +38,7 @@ const URL = "mongodb+srv://hstyles:Spikenard@cluster0.neei7.mongodb.net/hvBusine
 //const PORT = process.env.PORT || 5000
 //connect to mongoose
 const host = '0.0.0.0';
-const port = process.env.PORT || 5000;
+//const port = process.env.PORT || 5000;
 
 
 
