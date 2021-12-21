@@ -16,7 +16,7 @@ app.use(express.json({limit: "30mb", extended: true}));
 app.use(express.urlencoded({extended: true}));
 app.use(cors());
 
-const whitelist = ['http://localhost:3000', 'http://localhost:5000', 'https://heath-business-react-app.herokuapp.com']
+const whitelist = ['http://localhost:3000', 'http://localhost:4000','http://localhost:5000', 'https://heath-business-react-app.herokuapp.com']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
@@ -38,7 +38,7 @@ const URL = "mongodb+srv://hstyles:Spikenard@cluster0.neei7.mongodb.net/hvBusine
 //const PORT = process.env.PORT || 5000
 //connect to mongoose
 const host = '0.0.0.0';
-//const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
 
 
